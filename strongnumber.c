@@ -2,9 +2,9 @@
 int main()
 {
    int n;
-   printf("entre the range 1 to n");
+   printf("entre the range 1 to n \n");
    scanf("%d", &n);
-   for(int j=1;j<n;j++)
+   for(int j=1;j<=n;j++)
 {   
    int b=j;
    int a=b;
@@ -25,7 +25,7 @@ do
    a=a/10;
 }
 while(a!=0);
-
+printf("%d",j);
 if(sum==b)
 {
    printf("strong");
