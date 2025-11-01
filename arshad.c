@@ -2,7 +2,7 @@
 int main()
 {
    int n;
-   printf("entre the range 10 to n");
+   printf("entre the range 10 to n\n");
    scanf("%d", &n);
    for(int j=10;j<n;j++)
 {   
@@ -21,7 +21,7 @@ do
 while(a!=0);
 
 
-printf("%d", j);
+printf("%d  ", j);
 if((b%sum)==0)
 {
    printf("arshad");
