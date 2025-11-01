@@ -25,7 +25,7 @@ do
    a=a/10;
 }
 while(a!=0);
-printf("%d",j);
+printf("%d ",j);
 if(sum==b)
 {
    printf("strong");
